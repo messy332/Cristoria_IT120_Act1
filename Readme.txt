@@ -56,5 +56,3 @@ $ git branch
 $ history
 $ nano Readme.txt
 ctrl + x
-
-
