@@ -73,8 +73,9 @@ $ git add Readme.txt
 $ git commit -m "Adding txt on the Readme.txt"
 $ git status
 $ git log
+$ git switch -c Cristoria_B1
 
-//Cristoria_B1
+//Branch Cristoria_B1
 $ nano Readme.txt
   ctrl + s   
   ctrl + x
