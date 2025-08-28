@@ -40,4 +40,25 @@ ctrl + x
 $ git status
 $ history
 $ nano Readme.txt
+$ git switch -c Cristoria_B1
+
+//Cristoria_B1
+$ nano Readme.txt
+ctrl + x
+$ git add Readme.txt
+$ git commit -m "Adding text on the Readme.txt file"
+$ git status
+$ git log
+$ git branch
+$ clear
+$ nano Profile.txt
+$ status
+$ add Profile.txt
+$ git commit -m "Adding a text on the Profile.txt"
+$ git status
+$ clear
+$ history
+$ nano Readme.txt
+crtl + x
+
 
