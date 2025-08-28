@@ -74,7 +74,6 @@ $ git commit -m "Adding txt on the Readme.txt"
 $ git status
 $ git log
 $ git switch -c Cristoria_B1
-$ git switch -c Cristoria_B2
 
 //Branch Cristoria_B1
 $ nano Readme.txt
@@ -96,20 +95,4 @@ $ history
 $ nano Readme.txt
   crtl + s
   crtl + x
-$ git switch main
-
-//Branch Cristoria_B2
-$ nano Education.txt
-  ctrl + s  
-  ctrl + x
-$ nano Readme.txt
-  ctrl + s  
-  ctrl + x
-$ git add Education.txt Readme.txt
-$ git commit -m "Append on the Education.txt and Readme.txt file"
-$ git status
-$ nano Readme.txt
-  ctrl + s  
-  ctrl + x
-$ git switch main
 
