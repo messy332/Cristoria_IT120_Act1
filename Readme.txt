@@ -30,21 +30,21 @@ $ git add .
 $ git status
 $ history
 $ nano Readme.txt
-ctrl + x
+  ctrl + x
 $ clear
 $ nano Profile.txt
-ctrl + x
+  ctrl + x
 $ git status
 $ nano Education.txt
-ctrl + x
+  ctrl + x
 $ git status
 $ history
 $ nano Readme.txt
-ctrl + x
+  ctrl + x
 $ nano Background.txt
-ctrl + x
-$ nano Test.py
-ctrl + x
+  ctrl + x
+$ nano Test.py 
+  ctrl + x
 $ git status
 $ git add .
 $ git status
@@ -55,4 +55,18 @@ $ git branch -m master main
 $ git branch
 $ history
 $ nano Readme.txt
-ctrl + x
+  ctrl + x
+$ git switch -c Cristoria_B2
+
+//Cristoria_B2
+$ nano Education.txt
+  ctrl + x
+$ nano Readme.txt
+  ctrl + x
+$ git add Education.txt Readme.txt
+$ git commmit -m "Append on the Education.txt and Readme.txt file"
+$ git status
+$ nano Readme.txt
+  ctrl + x
+$ git switch main
+
