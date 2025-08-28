@@ -40,4 +40,21 @@ ctrl + x
 $ git status
 $ history
 $ nano Readme.txt
+ctrl + x
+$ nano Background.txt
+ctrl + x
+$ nano Test.py
+ctrl + x
+$ git status
+$ git add .
+$ git status
+$ git commit -m "First Commit"
+$ git status
+$ git log
+$ git branch -m master main
+$ git branch
+$ history
+$ nano Readme.txt
+ctrl + x
+
 
