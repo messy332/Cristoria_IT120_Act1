@@ -95,4 +95,4 @@ $ history
 $ nano Readme.txt
   crtl + s
   crtl + x
-
+$ git switch main
