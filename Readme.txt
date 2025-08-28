@@ -19,7 +19,7 @@ click view
 click show 
 click hidden items
 
-// Branch Master
+// Branch master
 $ touch Profile.txt
 $ touch Education.txt
 $ touch Background.txt
@@ -57,9 +57,19 @@ $ git status
 $ git commit -m "First Commit"
 $ git status
 $ git log
+
+//Branch main
 $ git branch -m master main
 $ git branch
 $ history
 $ nano Readme.txt
   ctrl + s
   ctrl + x
+$ clear
+$ git status
+$ git log
+  wq
+$ git add Readme.txt
+$ git commit -m "Adding txt on the Readme.txt"
+$ git status
+$ git log
