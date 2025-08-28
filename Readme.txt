@@ -30,21 +30,27 @@ $ git add .
 $ git status
 $ history
 $ nano Readme.txt
-ctrl + x
+  ctrl + s
+  ctrl + x
 $ clear
 $ nano Profile.txt
-ctrl + x
+  ctrl + s
+  ctrl + x
 $ git status
 $ nano Education.txt
-ctrl + x
+  ctrl + s
+  ctrl + x
 $ git status
 $ history
 $ nano Readme.txt
-ctrl + x
+  ctrl + s
+  ctrl + x
 $ nano Background.txt
-ctrl + x
+  ctrl + s
+  ctrl + x
 $ nano Test.py
-ctrl + x
+  ctrl; + s
+  ctrl + x
 $ git status
 $ git add .
 $ git status
@@ -55,4 +61,5 @@ $ git branch -m master main
 $ git branch
 $ history
 $ nano Readme.txt
-ctrl + x
+  ctrl + s
+  ctrl + x
