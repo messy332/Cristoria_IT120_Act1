@@ -19,7 +19,7 @@ click view
 click show 
 click hidden items
 
-// Branch Master
+// Branch master
 $ touch Profile.txt
 $ touch Education.txt
 $ touch Background.txt
@@ -30,21 +30,54 @@ $ git add .
 $ git status
 $ history
 $ nano Readme.txt
-ctrl + x
+  ctrl + s
+  ctrl + x
 $ clear
 $ nano Profile.txt
-ctrl + x
+  ctrl + s
+  ctrl + x
 $ git status
 $ nano Education.txt
-ctrl + x
+  ctrl + s
+  ctrl + x
 $ git status
 $ history
 $ nano Readme.txt
-$ git switch -c Cristoria_B1
+  ctrl + s
+  ctrl + x
+$ nano Background.txt
+  ctrl + s
+  ctrl + x
+$ nano Test.py
+  ctrl; + s
+  ctrl + x
+$ git status
+$ git add .
+$ git status
+$ git commit -m "First Commit"
+$ git status
+$ git log
+
+//Branch main
+$ git branch -m master main
+$ git branch
+$ history
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x
+$ clear
+$ git status
+$ git log
+  wq
+$ git add Readme.txt
+$ git commit -m "Adding txt on the Readme.txt"
+$ git status
+$ git log
 
 //Cristoria_B1
 $ nano Readme.txt
-ctrl + x
+  ctrl + s   
+  ctrl + x
 $ git add Readme.txt
 $ git commit -m "Adding text on the Readme.txt file"
 $ git status
@@ -59,6 +92,6 @@ $ git status
 $ clear
 $ history
 $ nano Readme.txt
-crtl + x
-
+  crtl + s
+  crtl + x
 
