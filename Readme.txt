@@ -94,5 +94,5 @@ $ nano Readme.txt
   ctrl + s
   ctrl + x
 $ git commit -m "Adding a txt on the Readme.txt"
-$ git push
+$ git push -u origin main
 $ git switch Cristoria_B1
