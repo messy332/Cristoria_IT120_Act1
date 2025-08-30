@@ -73,8 +73,19 @@ $ git add Readme.txt
 $ git commit -m "Adding txt on the Readme.txt"
 $ git status
 $ git log
+$ git push --force origin main
 $ git switch -c Cristoria_B1
 $ git switch -c Cristoria_B2
+$ nano Test.py
+  ctrl + s
+  ctrl + x
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x
+$ git add Test.py Readme.txt
+$ git commit -m "Adding a txt"
+$ git status
+$ git switch Cristoria_B1
 
 //Branch Cristoria_B1
 $ nano Readme.txt
@@ -96,7 +107,18 @@ $ history
 $ nano Readme.txt
   crtl + s
   crtl + x
+$ git push -u origin Cristoria_B1
 $ git switch main
+$ nano Test.py
+  ctrl + s
+  ctrl + x
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x 
+$ git add Test.py Readme.txt
+$ git commit -m "Adding a txt on a files"
+$ git status
+$ git switch Cristoria_B2
 
 //Branch Cristoria_B2
 $ nano Education.txt
@@ -111,5 +133,16 @@ $ git status
 $ nano Readme.txt
   ctrl + s  
   ctrl + x
+$ git push -u origin Cristoria_B2
 $ git switch main
-
+$ nano Test.txt
+  ctrl + x 
+  ctrl + s
+$ nano Readme.txt
+  ctrl + x 
+  ctrl + s
+$ git add Test.py Readme.txt
+$ git commit -m "Adding a text"
+$ git status
+$ git switch Cristoria_B3
+ 

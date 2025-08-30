@@ -1,2 +1,2 @@
-Import  OS
+Import  os
 print("Hello, World")
