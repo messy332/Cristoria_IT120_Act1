@@ -75,6 +75,9 @@ $ git status
 $ git log
 $ git push --force origin main
 $ git switch -c Cristoria_B1
+$ git switch -c Cristoria_B2
+$ git switch -c Cristoria_B3
+$ git switch -c Cristoria_B4
 $ nano Test.py
   ctrl + s
   ctrl + x
@@ -83,7 +86,14 @@ $ nano Readme.txt
   ctrl + x
 $ git add Test.py Readme.txt
 $ git commit -m "Adding a txt"
-$ git status
+$ git status 
+$ git push
+$ git switch Cristoria_B1
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x
+$ git commit -m "Adding a txt on the Readme.txt"
+$ git push -u origin main
 $ git switch Cristoria_B1
 
 //Branch Cristoria_B1
@@ -104,16 +114,27 @@ $ git status
 $ clear
 $ history
 $ nano Readme.txt
-  crtl + s
-  crtl + x
+  ctrl + s
+  ctrl + x
+$ git push -u origin Cristoria_B1
 $ git switch main
 $ nano Test.py
   ctrl + s
   ctrl + x
 $ nano Readme.txt
   ctrl + s
-  ctrl + x
+  ctrl + x 
 $ git add Test.py Readme.txt
-$ git commit -m "Adding a txt on the files"
+$ git commit -m "Adding a txt on a files"
+$ git push
+$ git status
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x
+$ git add Readme.txt
+$ git commit -m "Adding a txt"
+$ git push 
 $ git status
 $ git switch Cristoria_B2
+
+
