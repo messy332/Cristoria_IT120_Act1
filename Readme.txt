@@ -1,3 +1,4 @@
+
 $ git config --global user.name "messy332"
 $ git config --global user.email "parparcristoria902@gmail.com"
 $ git config --list
@@ -74,7 +75,10 @@ $ git commit -m "Adding txt on the Readme.txt"
 $ git status
 $ git log
 $ git push --force origin main
-$ git switch Cristoria_B1
+$ git switch -c Cristoria_B1
+$ git switch -c Cristoria_B2
+$ git switch -c Cristoria_B3
+$ git switch -c Cristoria_B4
 $ nano Test.py
   ctrl + s
   ctrl + x
@@ -83,6 +87,12 @@ $ nano Readme.txt
   ctrl + x
 $ git add Test.py Readme.txt
 $ git commit -m "Adding a txt"
-$ git status
+$ git status 
+$ git push
 $ git switch Cristoria_B1
-
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x
+$ git commit -m "Adding a txt on the Readme.txt"
+$ git push
+$ git switch Cristoria_B1
