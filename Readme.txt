@@ -73,3 +73,16 @@ $ git add Readme.txt
 $ git commit -m "Adding txt on the Readme.txt"
 $ git status
 $ git log
+$ git push --force origin main
+$ git switch Cristoria_B1
+$ nano Test.py
+  ctrl + s
+  ctrl + x
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x
+$ git add Test.py Readme.txt
+$ git commit -m "Adding a txt"
+$ git status
+$ git switch Cristoria_B1
+
