@@ -138,6 +138,7 @@ $ git status
 $ git switch Cristoria_B2
 
 //Branch Cristoria_B2
+$ git show Cristoria_B1:Readme.txt >> Readme.txt
 $ nano Education.txt
   ctrl + s  
   ctrl + x
