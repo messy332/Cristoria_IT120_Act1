@@ -195,5 +195,16 @@ $ nano Readme.txt
 $ git push -u origin Cristoria_B3
 $ git status
 $ git switch main
+$ nano Background.txt
+  ctrl + s
+  ctrl + x
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x
+$ git add Readme.txt Background.txt
+$ git commit -m "Second Commit"
+$ git push 
+$ git status
+$ git switch Cristoria_B4
  
 
