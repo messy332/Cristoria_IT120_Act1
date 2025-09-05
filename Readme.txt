@@ -38,6 +38,7 @@ $ notepad Readme.txt
   ctrl + s
 $ git status
 $ git add Readme.txt
+  ctrl + s
 $ git commit -m "Merge the specific files."
 $ git push
 
