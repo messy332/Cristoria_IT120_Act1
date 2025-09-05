@@ -1,4 +1,6 @@
+// Your UserName in your git hub
 $ git config --global user.name "messy332"
+// Your Email Address used in your git hub
 $ git config --global user.email "parparcristoria902@gmail.com"
 $ git config --list
 $ git config --global --list
@@ -19,7 +21,29 @@ click view
 click show 
 click hidden items
 
+
 // Branch master
+$ git branch -m master main
+
+
+// Branch main
+$ git push --force origin main
+$ git push -u origin main
+$ git switch -c Cristoria_B1
+$ git checkout Cristoria_B1 Profile.txt
+$ git checkout Cristoria_B2 Education.txt
+$ git checkout Cristoria_B3 Background.txt
+$ git checkout Cristoria_B4 Readme.txt
+$ notepad Readme.txt
+  ctrl + s
+$ git status
+$ git add Readme.txt
+  ctrl + s
+$ git commit -m "Merge the specific files."
+$ git push
+
+
+//Branch Cristoria_B1
 $ touch Profile.txt
 $ touch Education.txt
 $ touch Background.txt
@@ -27,7 +51,6 @@ $ touch Readme.txt
 $ touch Test.py
 $ git status
 $ git add .
-$ git status
 $ history
 $ nano Readme.txt
   ctrl + s
@@ -49,7 +72,7 @@ $ nano Background.txt
   ctrl + s
   ctrl + x
 $ nano Test.py
-  ctrl; + s
+  ctrl + s
   ctrl + x
 $ git status
 $ git add .
@@ -57,9 +80,6 @@ $ git status
 $ git commit -m "First Commit"
 $ git status
 $ git log
-
-//Branch main
-$ git branch -m master main
 $ git branch
 $ history
 $ nano Readme.txt
@@ -73,8 +93,6 @@ $ git add Readme.txt
 $ git commit -m "Adding txt on the Readme.txt"
 $ git status
 $ git log
-$ git push --force origin main
-$ git switch -c Cristoria_B1
 $ git switch -c Cristoria_B2
 $ git switch -c Cristoria_B3
 $ git switch -c Cristoria_B4
@@ -88,15 +106,12 @@ $ git add Test.py Readme.txt
 $ git commit -m "Adding a txt"
 $ git status 
 $ git push
-$ git switch Cristoria_B1
+$ git switch Cristoria_B2
 $ nano Readme.txt
   ctrl + s
   ctrl + x
 $ git commit -m "Adding a txt on the Readme.txt"
-$ git push -u origin main
-$ git switch Cristoria_B1
-
-//Branch Cristoria_B1
+$ git switch Cristoria_B2
 $ nano Readme.txt
   ctrl + s   
   ctrl + x
@@ -117,7 +132,6 @@ $ nano Readme.txt
   ctrl + s
   ctrl + x
 $ git push -u origin Cristoria_B1
-$ git switch main
 $ nano Test.py
   ctrl + s
   ctrl + x
@@ -136,5 +150,3 @@ $ git commit -m "Adding a txt"
 $ git push 
 $ git status
 $ git switch Cristoria_B2
-
-
