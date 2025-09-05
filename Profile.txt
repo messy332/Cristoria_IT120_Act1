@@ -5,3 +5,10 @@ Gender: Female
 Age: 20 years/old
 Birthday: April 19, 2005
 Contact: (+63)938 290 7739
+Birth of Place: Cabadbaran City
+Religion: XIII
+Father Name: N/A
+Occupation: N/A
+Mother Name: Marissa T. Cristoria
+Occupation: CareTaker
+

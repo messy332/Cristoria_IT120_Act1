@@ -1,4 +1,3 @@
-
 $ git config --global user.name "messy332"
 $ git config --global user.email "parparcristoria902@gmail.com"
 $ git config --list
@@ -96,3 +95,137 @@ $ nano Readme.txt
 $ git commit -m "Adding a txt on the Readme.txt"
 $ git push -u origin main
 $ git switch Cristoria_B1
+
+//Branch Cristoria_B1
+$ nano Readme.txt
+  ctrl + s   
+  ctrl + x
+$ git add Readme.txt
+$ git commit -m "Adding text on the Readme.txt file"
+$ git status
+$ git log
+$ git branch
+$ clear
+$ nano Profile.txt
+$ status
+$ add Profile.txt
+$ git commit -m "Adding a text on the Profile.txt"
+$ git status
+$ clear
+$ history
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x
+$ git push -u origin Cristoria_B1
+$ git switch main
+$ nano Test.py
+  ctrl + s
+  ctrl + x
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x 
+$ git add Test.py Readme.txt
+$ git commit -m "Adding a txt on a files"
+$ git push
+$ git status
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x
+$ git add Readme.txt
+$ git commit -m "Adding a txt"
+$ git push 
+$ git status
+$ git switch Cristoria_B2
+
+//Branch Cristoria_B2
+$ git show Cristoria_B1:Readme.txt >> Readme.txt
+$ nano Education.txt
+  ctrl + s  
+  ctrl + x
+$ nano Readme.txt
+  ctrl + s  
+  ctrl + x
+$ git add Education.txt Readme.txt
+$ git commit -m "Append on the Education.txt and Readme.txt file"
+$ git status
+$ nano Readme.txt
+  ctrl + s  
+  ctrl + x
+$ git push -u origin Cristoria_B2
+$ git switch main
+$ nano Test.txt
+  ctrl + x 
+  ctrl + s
+$ nano Readme.txt
+  ctrl + x 
+  ctrl + s
+$ git add Test.py Readme.txt
+$ git commit -m "Adding a text"
+$ git status
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x
+$ git add Readme.txt
+$ git commit -m "Adding a txt"
+$ git push 
+$ git status
+$ git switch Cristoria_B3
+
+//Branch Cristoria_B3
+$ clear
+$ git show Cristoria_B2:Readme.txt >> Readme.txt
+$ git branch
+$ nano Background.txt
+$ git rm -r Test.py
+$ git status
+$ git add Background.txt
+$ git commit -m "Saving the changes on the Background.txt"
+$ git status
+$ git log
+$ history
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x
+$ git switch main
+$ git add Readme.txt
+$ git commit -m "Append text on the Readme.txt file"
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x
+$ git push -u origin Cristoria_B3
+$ git status
+$ git switch main
+$ nano Background.txt
+  ctrl + s
+  ctrl + x
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x
+$ git add Readme.txt Background.txt
+$ git commit -m "Second Commit"
+$ git push 
+$ git status
+$ git switch Cristoria_B4
+
+//Branch Cristoria_B4
+$ git show Cristoria_B3:Readme.txt >> Readme.txt
+$ git rm -r Test.txt
+$ nano Readme.txt
+  ctrl + s
+  ctrl + x
+$ git add Readme.txt
+$ git commit -m "Adding a txt in the Readme.txt"
+$ git remote add origin https://github.com/messy332/Cristoria_IT120_Act1.git
+$ git push -u origin Crsitoria_B4
+$ git status
+$ git switch main
+$ nano Readme.txt
+  ctrl + s 
+  ctrl + x
+$ git add Readme.txt
+$ git commit -m "Adding a txt"
+$ git push
+$ git switch main
+$ clear
+ 
+
