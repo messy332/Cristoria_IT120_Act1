@@ -225,7 +225,7 @@ $ git switch Cristoria_B4
 
 
 //Branch Cristoria_B4
-$ git checkout Cristoria_B4 Readme.txt
+$ git checkout Cristoria_B3 Readme.txt
 $ git rm -r Test.py
 $ nano Readme.txt
   ctrl + s
