@@ -37,6 +37,7 @@ $ git checkout Cristoria_B4 Readme.txt
 $ notepad Readme.txt
   ctrl + s
 $ git status
+$ git add Readme.txt
 $ git commit -m "Merge the specific files."
 $ git push
 
